@@ -96,3 +96,47 @@ main {
     font-weight: bold;
     cursor: pointer;
 }
+
+#information {
+    padding-inline: 16rem;
+    padding-block-end: 4rem;
+}
+
+#information > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#information h2 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #1f2937;
+    margin-block: 2rem;
+}
+
+#information .cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > img {
+    border-radius: 0.25rem;
+    border: 2px solid #3882f6;
+}
+
+.card > p {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #4c5562;
+    text-align: center;
+}

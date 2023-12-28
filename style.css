@@ -203,3 +203,14 @@ blockquote cite {
     cursor: pointer;
     margin-left: 0.5rem;
 }
+
+footer {
+    background-color: #1f2937;
+    padding: 2rem 12rem;
+}
+
+footer p {
+    font-size: 1.125rem;
+    color: #e5e7eb;
+    text-align: center;
+}
